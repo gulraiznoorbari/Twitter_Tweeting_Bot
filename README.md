@@ -1,31 +1,24 @@
-# YouTube Live Stream Chat Bot
+# Twitter Tweeting Bot
 
-### This Chat Bot was developed using YouTube Data & Live Streaming API v3 in Python
+### This Bot was developed using Twitter API v2
 
-The bot replies to live chat messages in a Live Stream (obviously :p). It currently has a limited set of commands to respond to, but you can easily add more.
+- ```bot.py``` uses twitter-python library
+- ```bot2.py``` uses tweepy library
+Both these libraries serve as python wrappers for the original Twitter API v2
+
+The bot tweets anything you want, currently it tweets the current date.
 
 ## ⬇️ How to setup
 
-1. Goto [Google Developers Console](https://console.developers.google.com/) and create a new project.
-
-2. Enable YouTube Data API v3
-3. Then from the Credentials tab, create a new OAuth Client ID and select the Web Application option.
-4. Copy the Client ID and Client Secret and paste them in a `.env` file.
-5. Then Copy & Paste the following commands in your terminal:
+1. Goto [Twitter Developer Platform](https://developer.twitter.com/) and create a new project.
+2. Generate and Copy the BEARER_TOKEN, API_KEY, API_KEY_SECRET, ACCESS_TOKEN & ACCESS_TOKEN_SECRET and paste them in a `.env` file.
+3. Then Copy & Paste the following commands in your terminal:
 
 ```
-git clone https://github.com/gulraiznoorbari/YouTube_Live_Stream_Chat_Bot.git
-cd YouTube_Live_Stream_Chat_Bot
+git clone https://github.com/gulraiznoorbari/Twitter_Tweeting_Bot.git
+cd Twitter_Tweeting_Bot
 python bot.py
 ```
-
-The bot will ask you to authenticate yourself with your Google Account.
-
-After that, you will be prompted to enter a Live Stream Id in you terminal:
-
-> www.youtube.com/watch?v=qDWw4sAD3zY
-
-Here, the Live Stream Id is **`qDWw4sAD3zY`**
 
 ## 👨‍💻 Author
 
